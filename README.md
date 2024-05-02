@@ -1,6 +1,8 @@
 Final project for Yale CPSC 477. Using Retrieval-Augmented Generation to tackle BioLaySumm 2024, BioNLP task.
 -- Andrew Ton and Yuxuan Cheng
 
+The repo is adapted from localGPT, see more detials on setting up here: https://github.com/PromtEngineer/localGPT
+
 # Environment Setup 🌍
 
 1. 📥 Clone the repo using git:
@@ -46,12 +48,21 @@ CMAKE_ARGS="-DLLAMA_METAL=on"  FORCE_CMAKE=1 pip install llama-cpp-python==0.1.8
 ```
 For more details, please refer to [llama-cpp](https://github.com/abetlen/llama-cpp-python#installation-with-openblas--cublas--clblast--metal)
 
-To run LocalGPT: python run_localGPT.py
+To run LocalGPT: 
+```shell
+python run_localGPT.py
+```
 
-To embed documents: python ingest.py
+To embed documents: 
+```shell
+python ingest.py
+```
 
-To run evaluation: python evaluate.py
-
-The repo is forked from localGPT, see more detials on setting up here: https://github.com/PromtEngineer/localGPT
+To run evaluation: 
+```shell
+python evaluate.py
+```
 
 Final Metric score results are stored in gpt_scores.txt and llama_scores.txt
+
+Dependencies are listed in requirements.txt

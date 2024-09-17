@@ -1,6 +1,9 @@
 Final project for Yale CPSC 477. Using Retrieval-Augmented Generation to tackle BioLaySumm 2024, BioNLP task.
 -- Andrew Ton and Yuxuan Cheng
 
+<img width="518" alt="image" src="https://github.com/user-attachments/assets/83d917ea-2c05-4555-9b39-ead2b0448218">
+
+
 The repo is adapted from localGPT, see more detials on setting up here: https://github.com/PromtEngineer/localGPT
 
 # Environment Setup 🌍

@@ -1,5 +1,4 @@
-Final project for Yale CPSC 477. Using Retrieval-Augmented Generation to tackle BioLaySumm 2024, BioNLP task.
--- Andrew Ton and Yuxuan Cheng
+Final project for Yale CPSC 477 - Natural Language Processing, authored by Andrew Ton and Yuxuan Cheng. Using Retrieval-Augmented Generation to tackle BioLaySumm 2024, BioNLP task.
 
 <img width="518" alt="image" src="https://github.com/user-attachments/assets/83d917ea-2c05-4555-9b39-ead2b0448218">
 
